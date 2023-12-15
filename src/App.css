@@ -1,0 +1,64 @@
+.main-container {
+  margin: 0;
+  padding: 0;
+}
+
+.bar {
+  text-align: left;
+  display: inline-flex;
+
+}
+span{
+  color: white;
+  background-color: blue;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+span.h{
+  padding-left: 40px;
+  color: white;
+  background-color: blue;
+}
+
+span.p{
+  padding-left: 60px;
+}
+span.company{
+  padding-left: 60px;
+}
+span.c{
+  padding-left: 60px;
+  padding-right: 1075px;
+}
+p.part{
+  text-align: center;
+  font-size: 100px;
+  padding: 50px 120px 50px 120px;
+  background-color: green;
+  margin: 0;
+  margin-top: 20px;
+}
+h1{
+  text-align: left;
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: right;
+}
+h1, h2, h3{
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+/* p.about, p.company, p.services{
+  width: 300px;
+  display: inline-block;
+} */
+
+div.info {
+  display: flex;
+}
